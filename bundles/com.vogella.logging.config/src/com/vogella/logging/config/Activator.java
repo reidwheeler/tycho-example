@@ -15,7 +15,7 @@ import ch.qos.logback.classic.joran.JoranConfigurator;
 import ch.qos.logback.core.joran.spi.JoranException;
 
 public class Activator implements BundleActivator {
-	//test
+
 	@Override
 	public void start(BundleContext bundleContext) throws Exception {
 		configureLogbackInBundle(bundleContext.getBundle());
